@@ -1,9 +1,21 @@
+import Hero from "../components/Hero";
+import AboutSummary from "../components/AboutSummary";
+import ProgramsHighlights from "../components/ProgramsHighlights";
+import ImpactMetrics from "../components/ImpactMetrics";
+import Testimonials from "../components/Testimonials";
+import LatestNews from "../components/LatestNews";
+import CTABanner from "../components/CTABanner";
+
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="font-display text-3xl text-hopefill-blue">
-        Home — coming in Phase 3
-      </h1>
+    <div>
+      <Hero />
+      <AboutSummary />
+      <ProgramsHighlights />
+      <ImpactMetrics />
+      <Testimonials />
+      <LatestNews />
+      <CTABanner />
     </div>
   );
 }
