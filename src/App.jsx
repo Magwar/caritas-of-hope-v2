@@ -27,11 +27,13 @@ import AdminLogs from "./pages/portal/admin/Logs";
 import AdminProjects from "./pages/portal/admin/Projects";
 import AdminUsers from "./pages/portal/admin/Users";
 import AdminContent from "./pages/portal/admin/Content";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           {/* ── Public pages — all wrapped in Navbar + Footer layout ── */}
           <Route
