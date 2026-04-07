@@ -1,0 +1,67 @@
+export const trainings = [
+  {
+    id: "1",
+    title: "Financial Literacy for Women Entrepreneurs",
+    program: "Women Empowerment",
+    date: "May 10, 2025",
+    time: "9:00 AM – 1:00 PM",
+    venue: "Caritas of Hope Centre, Nairobi",
+    spots: 30,
+    spotsRemaining: 12,
+    color: "var(--color-magenta)",
+    description:
+      "A half-day workshop equipping women entrepreneurs with practical financial management skills — budgeting, saving, record keeping, and accessing credit.",
+  },
+  {
+    id: "2",
+    title: "Sustainable Farming Practices Workshop",
+    program: "Agriculture & Food Security",
+    date: "May 17, 2025",
+    time: "8:00 AM – 3:00 PM",
+    venue: "Kiambu Community Hall, Kiambu",
+    spots: 50,
+    spotsRemaining: 23,
+    color: "var(--color-green)",
+    description:
+      "A full-day training on climate-smart agriculture, kitchen garden setup, soil management, and sustainable crop production for smallholder farmers.",
+  },
+  {
+    id: "3",
+    title: "Youth Leadership & Civic Engagement Bootcamp",
+    program: "Youth Empowerment",
+    date: "May 24, 2025",
+    time: "9:00 AM – 5:00 PM",
+    venue: "Caritas of Hope Centre, Nairobi",
+    spots: 40,
+    spotsRemaining: 8,
+    color: "var(--color-blue)",
+    description:
+      "A full-day bootcamp for young people aged 18–30 covering leadership fundamentals, community organising, public speaking, and civic responsibility.",
+  },
+  {
+    id: "4",
+    title: "Mental Health First Aid Training",
+    program: "Health & Wellness",
+    date: "June 7, 2025",
+    time: "9:00 AM – 1:00 PM",
+    venue: "Online — Zoom",
+    spots: 60,
+    spotsRemaining: 35,
+    color: "var(--color-magenta)",
+    description:
+      "Learn how to identify, understand, and respond to signs of mental health challenges in your community. Open to staff, volunteers, and community members.",
+  },
+  {
+    id: "5",
+    title: "Adult Literacy Facilitator Training",
+    program: "Education & Literacy",
+    date: "June 14, 2025",
+    time: "8:30 AM – 4:30 PM",
+    venue: "Caritas of Hope Centre, Nairobi",
+    spots: 25,
+    spotsRemaining: 0,
+    color: "var(--color-blue)",
+    description:
+      "Train to become an adult literacy facilitator. This training equips volunteers and staff with methods and materials to teach reading and writing to adults.",
+  },
+];
